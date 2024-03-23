@@ -29,7 +29,7 @@ github:
   username: cshiz9206 # change to your github username
 
 twitter:
-  username: cshiz9206# change to your twitter username
+  username: cshiz9206 # change to your twitter username
 
 social:
   # Change to your full name.
@@ -88,7 +88,7 @@ theme_mode: # [light | dark]
 # img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/favicons/mstile-150x150.png"
+avatar: "/assets/img/favicons/11zon_cropped.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: research.log # the main title
+title: exp.log # the main title
 
 tagline: by cshiz # it will display as the sub-title
 

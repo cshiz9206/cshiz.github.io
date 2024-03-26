@@ -11,7 +11,7 @@ tags:
 
 > ***추상적 자료구조***
 
-</br>
+<br/>
 
 # 형태
 
@@ -21,34 +21,39 @@ tags:
 - 아래 그림에서 '[ ]'는 node를 나타냄
 
 ## Singly Linked List
+
 ```
 [데이터 | Link] -> [데이터 | Link] -> ...
 ```
 
 ## Doubly Linked List
+
 ```
 [Link | 데이터 | Link] -> [Link | 데이터 | Link] -> ...
 ```
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 # 속성
+
 - **저장** : 임의의 위치에 저장된다. 데이터를 연속한 위치에 저장하는 list와의 차이점이다.
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 # 활용
+
 - 삽입, 삭제가 유연해야 하는 경우
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 # 연산
+
 - 참조(k 번째)
   + 시간복잡도 : O(n)
 - 순회
@@ -58,13 +63,16 @@ tags:
 - 삭제
 - 합치기
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 # 구현
+
 ## Singly Linked List
+
 ### Solution_1
+
 ```python
 class Node:
   def __init__(self, item):
@@ -189,9 +197,10 @@ class LinkedList:
     return s
 ```
 
-</br>
+<br/>
 
 ### Solution_2
+
 Solution_1에서의 code를 더 간략하게 하고자 한 solution이다. 다음의 방법을 통해 이를 해결하고자 한다.
 1. dummy head node(index 0의 가상 head)를 가정한다.
 2. 예외처리와 핵심작업을 각 함수로 분리한다.
@@ -271,9 +280,10 @@ class LinkedList:
     return True
 ```
 
-</br>
+<br/>
 
 ## Doubly Linked List
+
 dummy head node, dummy tail node를 가정한다. 이로써, 데이터를 담고 있는 node들을 모두 같은 모양으로 취급할 수 있다.
 ```python
 class Node:
@@ -356,13 +366,13 @@ def solution(x):
 ```
 
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 <hr/>
 
-**ref.**</br>
+**ref.**<br/>
 - Programmers DevCourse 3기
 
 <hr/>

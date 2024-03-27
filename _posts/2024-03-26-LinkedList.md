@@ -29,7 +29,7 @@ tags:
 ## Doubly Linked List
 
 ```
-[Link | 데이터 | Link] -> [Link | 데이터 | Link] -> ...
+[Link | 데이터 | Link] <-> [Link | 데이터 | Link] <-> ...
 ```
 
 <br/>

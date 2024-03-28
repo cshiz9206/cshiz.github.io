@@ -18,7 +18,10 @@ tags:
 ---
 Greedy Algorithm이 흥미로운 점은 강화학습의 기본 이론에서 사용되는 알고리즘이라는 점이다.<br/>
 사람 또는 동물의 학습 방법을 모방하는 강화학습에서 Greedy Algorithm이 작동하는 것을 보다보면, 어떤 선택이 정답이 아닐지라도 매순간에 최선을 다하는 에이전트(지능체)의 모습에 자신이 비춰진다.<br/>
-현재 LLM의 Hallucination을 너무 뭐라하지 말자. 그 모델도 최선을 다한 것임을, 사람도 항상 최고의 정답을 내놓을 수는 없음을 생각해보게 된다.
+현재 LLM의 Hallucination을 너무 뭐라하지 말자. 그 모델도 최선을 다한 것임을, 사람도 항상 최고의 정답을 내놓을 수는 없음을 생각해보게 된다.<br/><br/>
+
+강화학습 스터디를 통해 작성했던 기본중의 기본 알고리즘 코드들이다.
+https://github.com/KCC-ML/Reinforce_ML_ShortestPath_Simulation_Study.git
 
 ## 문제
 ---

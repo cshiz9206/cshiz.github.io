@@ -1,11 +1,10 @@
 ---
 title: Python Coding Tips
 date: YYYY-MM-DD HH:MM:SS +09:00
-categories: [개념정립, Programmers-DevCourse]
+categories: [개념정립]
 tags:
   [
-    Algorithm,
-    Data Engineering
+    Programming
   ]
 ---
 

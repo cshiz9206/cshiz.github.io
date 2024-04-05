@@ -38,6 +38,7 @@ plt.show()
 
 > wordcloud : python의 Text Cloud Library
 > konlpy : 한국어 형태소 분석기 Library
+
 ```python
 # 문장에서 명사를 추출하는 형태소 분석 라이브러리
 from konlpy.tag import Hannanum

@@ -79,6 +79,16 @@ listOfArray = list(product(listA)) # extractN == len(listA)
 reversed(listA)
 ```
 
+# 집계
+
+#### 카운트/순위
+
+```python
+from collections import Counter
+counter = Counter(dictCountData)
+counter.most_common(10)
+```
+
 <br/>
 <br/>
 <br/>

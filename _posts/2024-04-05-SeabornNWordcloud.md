@@ -36,7 +36,7 @@ plt.show()
 
 ## Wordcloud
 
-> wordcloud : python의 Text Cloud Library
+> wordcloud : python의 Text Cloud Library<br/>
 > konlpy : 한국어 형태소 분석기 Library
 
 ```python

@@ -89,6 +89,14 @@ counter = Counter(dictCountData)
 counter.most_common(10)
 ```
 
+#### 최대
+
+- dict에서 value 기준 최대값을 갖는 key를 반환
+
+```python
+max(dict, key=dict.get)
+```
+
 <br/>
 <br/>
 <br/>

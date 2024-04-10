@@ -97,6 +97,15 @@ counter.most_common(10)
 max(dict, key=dict.get)
 ```
 
+# 저장
+
+#### dict 순서 유지 저장
+
+```python
+from collections import OrderedDict
+od = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+```
+
 <br/>
 <br/>
 <br/>

@@ -28,6 +28,28 @@ def index(request):
   return render(request, '[APP_NAME]/index.html', context)
 ```
 
+<br/>
+
+## URL 활용
+
+### URL Pattern
+
+**[APP_NAME]/urls.py**
+
+```python
+from django.urls import path 
+from . import views  
+
+app_name = '[상위 경로]'
+
+urlpatterns = [     
+    path('', views.index, name='index'),
+    path('some_url', views.some_url), 
+    path('<int:question_id>/', views.detail, name='[하위 경로]'),     
+]
+```
+
+
 
 
 <br/>

@@ -141,7 +141,7 @@ class SignupView(generic.CreateView):
 
 <h2>회원가입</h2>
  <form method="post">
-   {% csrf_token %}
+   {퍼센트기호 csrf_token 퍼센트기호}
    {{ form.as_p }} <!--UserCreationForm 렌더링 결과 출력-->
    <button type="submit">가입하기</button>
 </form>

@@ -56,9 +56,24 @@ urlpatterns = [
 ### Redirection(302)
 + `from django.http import HttpResponseRedirect`
 + `django.urls import reverse`
-+ 되돌아가기 예시 : `HttpResponseRedirect(reverse('[상위 경로]:[하위 경로]', args = (arg1,)))` -> `<form action="{% url '[상위 경로]:[하위 경로]' [세부 경로] %}" method="post">`
++ 되돌아가기 예시 : `HttpResponseRedirect(reverse('[상위 경로]:[하위 경로]', args = (arg1,)))` -> `<form action=\"{% url '[상위 경로]:[하위 경로]' [세부 경로] %}\" method="post">`
 
+## HTML 활용
 
+- **forloop.counter**
+- **csrf_token**
+
+![alt text](./figures/image3.png)
+
+<br/>
+
+## Error 방어
+
+**[APP_NAME] > views.py** <br/>
+
+- `from django.http import Http404` : `raise Http404('Does not exist')`
+- `from django.shortcuts import get_object_or_404` : `get_object_or_404([MODEL_NAME], [FILTER])`
+- `django.db.models import F` : `F([FIELD_NAME]) + 1`
 
 
 <br/>

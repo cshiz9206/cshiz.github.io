@@ -34,9 +34,9 @@ def index(request):
 
 ### URL Pattern
 
-```python
-# [APP_NAME]/urls.py
+**[APP_NAME]/urls.py**
 
+```python
 from django.urls import path 
 from . import views  
 
@@ -49,20 +49,9 @@ urlpatterns = [
 ]
 ```
 
-```html
-        <!--[APP_NAME]/templates/[APP_NAME]/index.html-->
+**[APP_NAME]/templates/[APP_NAME]/index.html**
 
-        {% if questions %}
-        <ul>
-            {% for question in questions %}
-                <li><a href="{% url '[상위 경로]:[하위 경로]' question.id %}">{{ question.question_text }}</a></li>
-                
-            {% endfor %}
-        <ul>
-        {% else %}
-        <p>no questions</p>
-        {% endif %}
-```
+![alt text](./figures/image2.png)
 
 ### Redirection(302)
 + `from django.http import HttpResponseRedirect`

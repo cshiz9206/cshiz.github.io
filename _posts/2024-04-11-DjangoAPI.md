@@ -1,5 +1,5 @@
 ---
-title: Django
+title: Django(1) API
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [개념정립, Programmers-DevCourse]
 tags:

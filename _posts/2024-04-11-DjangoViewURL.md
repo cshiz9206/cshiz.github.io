@@ -53,6 +53,11 @@ urlpatterns = [
 
 ![alt text](./figures/image2.png)
 
+### Redirection(302)
++ `from django.http import HttpResponseRedirect`
++ `django.urls import reverse`
++ 되돌아가기 예시 : `HttpResponseRedirect(reverse('[상위 경로]:[하위 경로]', args = (arg1,)))` -> `<form action="{% url '[상위 경로]:[하위 경로]' [세부 경로] %}" method="post">`
+
 
 
 

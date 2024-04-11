@@ -122,7 +122,7 @@ from django.contrib.auth.forms import UserCreationForm
 
 class SignupView(generic.CreateView):
     form_class = UserCreationForm
-    success_url = reverse_lazy('user-list') # form action 속성의 {% url %}과 같은 역할을 함.
+    success_url = reverse_lazy('user-list') # form action 속성의 {퍼센트기호 url 퍼센트기호}과 같은 역할을 함.
     template_name = 'registration/signup.html'
 ```
 - UserCreationForm : 회원가입 폼 자동 생성

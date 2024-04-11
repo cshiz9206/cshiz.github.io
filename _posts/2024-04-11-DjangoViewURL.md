@@ -49,6 +49,10 @@ urlpatterns = [
 ]
 ```
 
+**[APP_NAME]/templates/[APP_NAME]/index.html**
+
+![alt text](./figures/image2.png)
+
 
 
 

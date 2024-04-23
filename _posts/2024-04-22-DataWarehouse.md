@@ -15,6 +15,7 @@ tags:
     + 고객이 아닌 내부 직원을 위한 데이터베이스
     + 처리속도가 아닌 처리 데이터의 크기가 더 중요해짐.
 - SQL 기반의 관계형 데이터베이스
+    + Primary Key 속성을 지정할 수 있으나 무시됨.(쿼리 시 힌트로 사용될 수 있기 때문에 지정은 가능하게 해놓은 것)
 - 프로덕션 데이터베이스와는 별도이어야 함.
     + 프로덕션 데이터베이스 : OLTP(OnLine Transaction Processing) vs 데이터 웨어하우스 : OLAP(OnLine Analytical Processing)
     + 회사 내부에서의 데이터 활용 트래픽과 사용자 트래픽을 분리

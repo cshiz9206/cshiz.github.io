@@ -63,7 +63,7 @@ django.shortcuts의 render 함수의 동작 원리를 간략히 요약해보면 
 
 ```html
 <form method="post" action="{퍼센트 url 'submit_data' 퍼센트}">
-    {% csrf_token %}
+    {퍼센트 csrf_token 퍼센트}
     <input type="text" name="user_input" placeholder="Enter something...">
     <button type="submit">Submit</button>
 </form>

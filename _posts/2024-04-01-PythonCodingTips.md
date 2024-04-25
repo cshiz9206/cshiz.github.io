@@ -1,7 +1,7 @@
 ---
 title: Python Coding Tips
 date: YYYY-MM-DD HH:MM:SS +09:00
-categories: [개념정립]
+categories: [개념파생정리]
 tags:
   [
     Programming

@@ -62,7 +62,7 @@ django.shortcuts의 render 함수의 동작 원리를 간략히 요약해보면 
 아래와 같은 form의 사용 사례도 SSR 방식이 됩니다.<br/>
 
 ```html
-<form method="post" action="{% url 'submit_data' %}">
+<form method="post" action="{퍼센트 url 'submit_data' 퍼센트}">
     {% csrf_token %}
     <input type="text" name="user_input" placeholder="Enter something...">
     <button type="submit">Submit</button>
@@ -114,7 +114,7 @@ $(document).ready(function() {
         e.preventDefault();  // Prevent form from submitting normally
         $.ajax({
             type: 'POST',
-            url: "{% url 'submit_data' %}",
+            url: "{퍼센트 url 'submit_data' 퍼센트}",
             data: {
                 'user_input': $('input[name="user_input"]').val(),
                 'csrfmiddlewaretoken': $('input[name="csrfmiddlewaretoken"]').val()
